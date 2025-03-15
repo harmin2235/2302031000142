@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+ <!--1st code-->   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collaborative Translation Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <header class="header">
+        <div class="logo">
+            <h1>Translation Hub</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+<body>
+    <main class="main-content">
+        <section class="intro">
+            <h2>Welcome to Translation Hub</h2>
+            <p>Your one-stop platform for collaborative translation projects.</p>
+        </section>
+
+        <section class="project-overview">
+            <h3>Active Projects</h3>
+            <div class="project-card">
+                <h4>Project 1: Website Translation</h4>
+                <p>Status: <span class="status in-progress">In Progress</span></p>
+                <p>Languages: English to Spanish</p>
+                <button class="btn">View Project</button>
+            </div>
+            <div class="project-card">
+                <h4>Project 2: Article Translation</h4>
+                <p>Status: <span class="status completed">Completed</span></p>
+                <p>Languages: French to English</p>
+                <button class="btn">View Project</button>
+            </div>
+        </section>
+
+        <section class="quick-links">
+            <h3>Quick Links</h3>
+            <div class="links">
+                <a href="#" class="btn">Create New Project</a>
+                <a href="#" class="btn">Join Project</a>
+                <a href="#" class="btn">Upload Document</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Translation Hub. All Rights Reserved.</p>
+    </footer>
+</body>
+<!--2nd code-->
+<head>   
+    <header class="header">
+        <div class="logo">
+            <h1>Creation</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Teams</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>    
+<body>
+    <main class="main-content">
+        <section class="create-project-form">
+            <h2>Create New Translation Project</h2>
+            <form action="#" method="POST">
+                <label for="project-name">Project Name:</label>
+                <input type="text" id="project-name" name="project-name" placeholder="Enter project name" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" placeholder="Enter project description" rows="4" required></textarea>
+
+                <label for="languages">Languages:</label>
+                <select id="languages" name="languages" required>
+                    <option value="">Select Source Language</option>
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    <option value="es">Spanish</option>
+                    <option value="de">German</option>
+                    <!-- Add more languages here -->
+                </select>
+                <select id="target-languages" name="target-languages" required>
+                    <option value="">Select Target Language</option>
+                    <option value="fr">French</option>
+                    <option value="en">English</option>
+                    <option value="es">Spanish</option>
+                    <option value="de">German</option>
+                    <!-- Add more languages here -->
+                </select>
+
+                <label for="document-upload">Upload Documents:</l
+</body>
+<!--3rd code-->
+<head>
+    <title>Prpject Details</title>
+</head>
+<body>
+    <header>
+        <h1>Overview</h1>
+    </header>
+
+    <main>
+        <section class="project-info">
+            <h2>Project Overview</h2>
+            <p><strong>Source Language:</strong> English</p>
+            <p><strong>Target Language:</strong> Spanish</p>
+            <p><strong>Deadline:</strong> March 15, 2025</p>
+            <p><strong>Description:</strong> A collaborative effort to translate classic English literature into Spanish.</p>
+        </section>
+
+        <section class="team">
+            <h2>Assigned Team</h2>
+            <ul>
+                <li>- Translator</li>
+                <li>Jane Smith - Proofreader</li>
+                <li>Mark Lee - Reviewer</li>
+            </ul>
+        </section>
+
+        <section class="progress">
+            <h2>Translation Progress</h2>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 60%;">60%</div>
+            </div>
+        </section>
+
+        <section class="actions">
+            <button>Start Translating</button>
+            <button>View Comments</button>
+        </section>
+    </main>
+</body>
+<!--4th code-->
+<head>
+    <title>Translation Editor</title>
+</head>
+<body>
+    <header>
+        <h1>Translation Editor</h1>
+    </header>
+
+    <main>
+        <section class="editor-container">
+            <div class="text-box">
+                <h2>Original Text (English)</h2>
+                <textarea readonly>
+"It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness..."
+                </textarea>
+            </div>
+
+            <div class="text-box">
+                <h2>Translated Text (Spanish)</h2>
+                <textarea placeholder="Enter your translation here..."></textarea>
+            </div>
+        </section>
+
+        <section class="controls">
+            <button class="save">Save Translation</button>
+            <button class="submit">Submit for Review</button>
+        </section>
+    </main>
+</body>
+<!--5th code-->
+<head>
+    <title>Settings & Profile</title>
+   </head>
+<body>
+    <header>
+        <h1>Settings & Profile</h1>
+    </header>
+
+    <main>
+        <section class="profile">
+            <h2>Profile Information</h2>
+            <div class="profile-pic">
+                <img src="user-placeholder.png" alt="Profile Picture">
+                <button>Change Picture</button>
+            </div>
+            <form>
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" value="">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" value="">
+
+                <label for="bio">Bio:</label>
+                <textarea id="bio" placeholder="Write something about yourself..."></textarea>
+            </form>
+        </section>
+
+        <section class="settings">
+            <h2>Account Settings</h2>
+            <label for="language">Preferred Language:</label>
+            <select id="language">
+                <option value="english">English</option>
+                <option value="spanish">Spanish</option>
+                <option value="french">French</option>
+            </select>
+
+            <label for="notifications">Email Notifications:</label>
+            <input type="checkbox" id="notifications" checked> Receive updates
+
+            <label for="privacy">Privacy Settings:</label>
+            <select id="privacy">
+                <option value="public">Public</option>
+                <option value="private">Private</option>
+                <option value="friends">Friends Only</option>
+            </select>
+        </section>
+
+        <section class="actions">
+            <button class="save">Save Changes</button>
+            <button class="logout">Logout</button>
+        </section>
+    </main>
+</body>
+<!--6th code-->
+<head>
+    <title>Contact Us</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+
+    <main>
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>If you have any questions or need assistance, feel free to reach out to us.</p>
+            
+            <div class="info">
+                <p><strong>Email:</strong> support@example.com</p>
+                <p><strong>Phone:</strong> +1 234 567 890</p>
+                <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <div class="input-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+</body>
+<!--7th code-->
+<head>
+    <title>Leaderboard & Rewards</title>
+    </head>
+<body>
+    <header>
+        <h1>Leaderboard & Rewards</h1>
+    </header>
+
+    <main>
+        <section class="leaderboard">
+            <h2>Top Contributors</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Points</th>
+                        <th>Completed Projects</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>🥇 1</td>
+                        <td>Your Name</td>
+                        <td>1500</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>🥈 2</td>
+                        <td>Jane Smith</td>
+                        <td>1300</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>🥉 3</td>
+                        <td>Mark Lee</td>
+                        <td>1200</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="rewards">
+            <h2>Rewards</h2>
+            <ul>
+                <li>🏅 1000+ Points → Gold Badge & Premium Features</li>
+                <li>🥈 500+ Points → Silver Badge & Profile Highlight</li>
+                <li>🥉 200+ Points → Bronze Badge & Community Recognition</li>
+            </ul>
+        </section>
+    </main>
+</body>
+<!--8th code-->
+<head>
+    <title>Thank You & Next Steps</title>
+    </head>
+<body>
+    <div class="container">
+        <h1>Thank You for Participating!</h1>
+        <p>Your contributions help bridge language barriers worldwide.</p>
+        
+        <div class="next-steps">
+            <h2>Next Steps</h2>
+            <ul>
+                <li>Explore new translation projects</li>
+                <li>Join the community discussions</li>
+                <li>Improve your translation skills with our resources</li>
+                <li>Share your achievements on social media</li>
+            </ul>
+        </div>
+
+        <div class="buttons">
+            <a href="projects.html" class="btn">Find New Projects</a>
+            <a href="community.html" class="btn">Join the Community</a>
+        </div>
+    </div>
+</body>
+</html>
